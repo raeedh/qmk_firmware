@@ -70,3 +70,10 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     return true;
 }
 #endif // ENCODER_ENABLE
+
+// CAPSLOCK INDICATOR ON CAPS KEY
+void rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+    if (IS_HOST_LED_ON(USB_LED_CAPS_LOCK)) {
+        RGB_MATRIX_INDICATOR_SET_COLOR(3, 255, 255, 255); //capslock key (led index, r, g, b)
+    }
+}
