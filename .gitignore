@@ -26,9 +26,6 @@ quantum/version.h
 *.qmk
 *.uf2
 
-# include firmware in compiled_firmware
-!/compiled_firmware/*.bin
-
 # Old-style QMK Makefiles
 /keyboards/*/Makefile
 /keyboards/*/*/Makefile

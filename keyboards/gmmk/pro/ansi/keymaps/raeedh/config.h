@@ -7,5 +7,6 @@
 #undef QMK_KEYS_PER_SCAN
 #define QMK_KEYS_PER_SCAN 12
 
-/* If defined, the RGB lighting will be switched off when the host goes to sleep */
-#define RGBLIGHT_SLEEP
+/* disable RGB lighting when sleep */
+#define RGB_DISABLE_WHEN_USB_SUSPENDED
+#define RGB_DISABLE_TIMEOUT 300000 // 5 mins (5 * 60 * 1000ms)
