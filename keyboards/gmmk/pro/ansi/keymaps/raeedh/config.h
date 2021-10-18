@@ -10,6 +10,9 @@
 #define RGB_DISABLE_WHEN_USB_SUSPENDED // turn off effects when suspended
 #define RGB_DISABLE_TIMEOUT 300000 // number of milliseconds to wait until rgb automatically turns off: 5 mins (5 * 60 * 1000ms)
 
+// tap dance
+#define TAPPING_TERM 200
+
 #define RGB_MATRIX_KEYPRESSES // reacts to keypresses
 #define RGB_MATRIX_FRAMEBUFFER_EFFECTS // enable framebuffer effects
 
