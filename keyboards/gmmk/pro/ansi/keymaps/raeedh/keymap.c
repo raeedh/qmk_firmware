@@ -15,7 +15,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include QMK_KEYBOARD_H
-#include "raeedh_tapdance.h"
+#include "raeedh.h"
 
 
 // clang-format off
